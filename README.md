@@ -16,6 +16,7 @@ This is a simple rule-based customer service chatbot for a fictitious company ca
 4. Under Build and deployment, choose Deploy from a branch.
 5. Select `main` and `/root`, then save.
 6. Wait a few minutes for GitHub Pages to publish the site.
+7. Published using GitHub Pages.
 
 ## Notes
 
