@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AquaNest Filters Support Bot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>AquaNest Filters Support Bot</h1>
+      <p>
+        A customer support chatbot for AquaNest Filters, a fictitious Irish company supplying smart filtration systems for indoor aquariums.
+      </p>
+    </section>
+
+    <section class="case-study" aria-labelledby="case-heading">
+      <h2 id="case-heading">Company context</h2>
+      <p>
+        AquaNest Filters supports hobbyists, pet shops and specialist breeders who need reliable water filtration for rare tropical fish. Most support queries relate to red or amber warning lights, where customers are unsure whether the issue is a blocked filter, dirty sensor, cartridge replacement or reduced water flow.
+      </p>
+    </section>
+
+    <section class="chatbot" aria-labelledby="chat-heading">
+      <div class="chat-header">
+        <div>
+          <h2 id="chat-heading">AquaNest Help Assistant</h2>
+          <p>Ask about warning lights, cartridges, flow problems or sensor cleaning.</p>
+        </div>
+        <span class="status">Online</span>
+      </div>
+
+      <div id="chatWindow" class="chat-window" aria-live="polite">
+        <div class="message bot">
+          Hi, I’m the AquaNest support bot. What warning light or filter issue are you seeing today?
+        </div>
+      </div>
+
+      <div class="quick-actions" aria-label="Quick questions">
+        <button type="button" data-question="Red warning light">Red light</button>
+        <button type="button" data-question="Amber warning light">Amber light</button>
+        <button type="button" data-question="Low water flow">Low flow</button>
+        <button type="button" data-question="How do I clean the sensor?">Clean sensor</button>
+      </div>
+
+      <form id="chatForm" class="chat-form">
+        <label class="sr-only" for="userInput">Type your question</label>
+        <input id="userInput" type="text" placeholder="Type your question here..." autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
