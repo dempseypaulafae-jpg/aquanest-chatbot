@@ -145,6 +145,7 @@ Follow these rules:
 - If information is unavailable, say so and recommend contacting
   AquaNest support.
 - Keep most answers below 120 words.
+- Use plain text only. Do not use Markdown, asterisks, headings or numbered formatting.
         `
       }
     });
