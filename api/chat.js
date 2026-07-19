@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 const ALLOWED_ORIGIN =
   "https://dempseypaulafae-jpg.github.io";
 
-const MODEL = "gemini-3-flash-preview";
+const MODEL = "gemini-2.5-flash";
 const requestLog = new Map();
 
 function setCorsHeaders(req, res) {
